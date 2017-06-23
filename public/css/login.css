@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/05/2017, 10:16:24 AM
+    Author     : pedro_2
+*/
+
+.wp-block.default {
+    border: 1px solid;
+    border-color: #e0eded;
+    background: #fff;
+}
+
+.wp-block {
+    margin: 0 0 15px 0;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    position: relative;
+    cursor: default;
+    border-radius: 2px;
+}
+.user-form .form-body {
+    padding: 15px 20px;
+}
+.sky-form {
+    margin: 0;
+    outline: none;
+}
+.sky-form fieldset {
+    display: block;
+    padding: 15px 0;
+    border: none;
+    background: transparent;
+}
+input, textarea, input[type="submit"]:focus, div {
+    outline: none;
+}
+.user-form .form-header.base-alt {
+    background: #c2b3d0;
+    border-color: transparent;
+}
+.user-form .form-header h2 {
+    margin: 0;
+    padding: 0 !important;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    color: #333;
+}
+.sky-form section {
+    margin-bottom: 20px;
+}
+
+.sky-form .label {
+    border-radius: 0;
+    font-size: 100%;
+    text-align: left;
+    white-space: normal;
+    color: inherit;
+    padding: 0;
+    color: #333;
+}
+.sky-form .input .icon-append+input, .sky-form .textarea .icon-append+textarea {
+    padding-right: 46px;
+}
+.sky-form .input, .sky-form .select, .sky-form .textarea, .sky-form .radio, .sky-form .checkbox, .sky-form .toggle, .sky-form .button {
+    position: relative;
+    display: block;
+}
+.sky-form .input input, .sky-form .select select, .sky-form .textarea textarea, .sky-form .radio i, .sky-form .checkbox i, .sky-form .toggle i, .sky-form .icon-append, .sky-form .icon-prepend {
+    border-color: #ccc;
+    -ms-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -webkit-transition: border-color .3s;
+}
+
+
+.sky-form .input input, .sky-form .select select, .sky-form .textarea textarea {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 39px;
+    padding: 8px 10px;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    background: #f9f9f9;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.sky-form .label {
+    display: block;
+    margin-bottom: 6px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.user-form .form-header {
+    padding: 15px 20px;
+    background: #fcfcfc;
+    border-bottom: 1px solid #e0eded;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.sky-form .icon-append, .sky-form .icon-prepend {
+    color: #ccc;
+}
+
+.sky-form .icon-append {
+    right: 5px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.sky-form .icon-append, .sky-form .icon-prepend {
+    position: absolute;
+    top: 5px;
+    width: 29px;
+    height: 29px;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.sky-form .input input, .sky-form .select select, .sky-form .textarea textarea, .sky-form .radio i, .sky-form .checkbox i, .sky-form .toggle i, .sky-form .icon-append, .sky-form .icon-prepend {
+    border-color: #ccc;
+    -ms-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -webkit-transition: border-color .3s;
+}
+
+.sky-form i, .sky-form i:after, .sky-form i:before {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+.base-alt h1, .base-alt h2, .base-alt h3, .base-alt h4, .base-alt h5, .base-alt h6 {
+    color: #fff !important;
+}
+
+.base-alt {
+    background: #c2b3d0;
+    color: #fff;
+}
+.btn-icon.btn:before {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.btn-icon.btn-icon-right:before {
+    left: auto;
+    right: 0;
+}
+.btn-icon {
+    position: relative;
+}
+.btn-icon-right span, .btn-icon-right input {
+    padding-left: 15px;
+    padding-right: 50px;
+}
+.btn-alt {
+    color: #fff;
+    background-color: #c2b3d0;
+    border: 1px solid;
+    border-color: #8bbf0c;
+}
+.btn-sign-in:before {
+    content: "\f090";
+}
+.btn {
+    font-weight: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-alt:before {
+    background-color: #9a7ab8;
+}
+
+.btn-icon:before {
+    font-family: "FontAwesome";
+    line-height: 32px;
+}
+
+.btn-icon:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 36px;
+    color: #fff;
+    border-right: 0;
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    -ms-transition: background .1s linear;
+    transition: background .1s linear;
+}
+.user-form .form-footer.base-alt {
+    background: #c2b3d0;
+    border-color: transparent;
+}
+
+.user-form .form-footer {
+    padding: 15px;
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
